@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-5app",
+  "version": "0.0.0",
+  "description": "Javascript Style guide for 5app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/validate.js",
+    "lint": "eslint ./ --config eslintrc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/5app/eslint-config-5app.git"
+  },
+  "keywords": [
+    "5app",
+    "style",
+    "guide"
+  ],
+  "author": "Andrew Dodson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5app/eslint-config-5app/issues"
+  },
+  "homepage": "https://github.com/5app/eslint-config-5app#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "mocha": "^4.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  }
+}
