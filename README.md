@@ -1,5 +1,7 @@
 # eslint-config-5app
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/5app/eslint-config-5app.svg)](https://greenkeeper.io/)
+
 5app javascript style guide
 
 [![CircleCI](https://circleci.com/gh/5app/eslint-config-5app.svg?style=shield)](https://circleci.com/gh/5app/eslint-config-5app)
