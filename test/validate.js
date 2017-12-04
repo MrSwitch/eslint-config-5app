@@ -12,7 +12,7 @@ it('load config in eslint to validate all rule syntax is correct', () => {
 
 	const text = `
 const foo = 1;
-const bar = function () {};
+const bar = function() {};
 bar(foo);
 `;
 
