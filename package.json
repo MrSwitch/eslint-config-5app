@@ -1,15 +1,19 @@
 {
-  "name": "eslint-config-5app",
+  "name": "eslint-config-mr",
   "version": "0.1.0",
-  "description": "Javascript Style guide for 5app",
+  "description": "Javascript Style guide by MrSwitch",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/validate.js",
     "lint": "eslint ./ --config eslintrc.json"
   },
+  "files": [
+    "eslintrc.json",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/5app/eslint-config-5app.git"
+    "url": "git+ssh://git@github.com/5app/eslint-config-mr.git"
   },
   "keywords": [
     "5app",
@@ -19,9 +23,9 @@
   "author": "Andrew Dodson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/5app/eslint-config-5app/issues"
+    "url": "https://github.com/5app/eslint-config-mr/issues"
   },
-  "homepage": "https://github.com/5app/eslint-config-5app#readme",
+  "homepage": "https://github.com/5app/eslint-config-mr#readme",
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^4.11.0",
