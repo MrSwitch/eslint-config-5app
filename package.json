@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/5app/eslint-config-5app.git"
   },
+  "files": [
+    "eslintrc.json",
+    "index.js"
+  ],
   "keywords": [
     "5app",
     "style",
@@ -28,6 +32,6 @@
     "mocha": "^5.0.1"
   },
   "peerDependencies": {
-    "eslint": ">=4.0.0"
+    "eslint": ">=5.0.0"
   }
 }
