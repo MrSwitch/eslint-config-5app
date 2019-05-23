@@ -4,6 +4,7 @@
   "description": "Javascript Style guide by MrSwitch",
   "main": "index.js",
   "scripts": {
+    "update": "git fetch upstream && git pull upstream master",
     "test": "mocha test/validate.js",
     "lint": "eslint ./ --config eslintrc.json"
   },
