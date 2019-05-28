@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-5app",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Javascript Style guide for 5app",
   "main": "index.js",
   "scripts": {
