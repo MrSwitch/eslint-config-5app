@@ -8,7 +8,10 @@
 		"ecmaVersion": 2018,
 		"sourceType": "module"
 	},
-	"extends": "eslint:recommended",
+	"extends": [
+		"eslint:recommended",
+		"plugin:you-dont-need-lodash-underscore/all"
+	],
 	"rules": {
 		"arrow-spacing": [2, {"before": true, "after": true}],
 		"arrow-parens": [2, "as-needed"],
