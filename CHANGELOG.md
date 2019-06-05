@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/5app/eslint-config-5app/compare/v0.6.0...v0.6.1) (2019-06-05)
+
+
+### Bug Fixes
+
+* **syntax:** invalid config json ([ad081d7](https://github.com/5app/eslint-config-5app/commit/ad081d7))
+
 # [0.6.0](https://github.com/5app/eslint-config-5app/compare/v0.5.0...v0.6.0) (2019-06-05)
 
 
