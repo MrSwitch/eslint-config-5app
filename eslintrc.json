@@ -103,8 +103,6 @@
 		"space-in-parens": [2, "never"],
 		"valid-typeof": 2,
 		"yoda": 2,
-
-		/** JSDoc */
 		"jsdoc/require-jsdoc": 0,
 		"jsdoc/check-indentation": 2,
 		"jsdoc/check-param-names": 2,
