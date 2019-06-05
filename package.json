@@ -32,6 +32,7 @@
     "@semantic-release/git": "^7.0.8",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
+    "eslint-plugin-jsdoc": "^7.2.3",
     "mocha": "^6.1.4",
     "semantic-release": "^15.13.12"
   },

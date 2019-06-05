@@ -8,6 +8,9 @@
 		"ecmaVersion": 2018,
 		"sourceType": "module"
 	},
+	"plugins": [
+		"jsdoc"
+	],
 	"extends": [
 		"eslint:recommended",
 		"plugin:you-dont-need-lodash-underscore/all"
@@ -99,6 +102,25 @@
 		"space-infix-ops": [2, {"int32Hint": false}],
 		"space-in-parens": [2, "never"],
 		"valid-typeof": 2,
-		"yoda": 2
+		"yoda": 2,
+
+		/** JSDoc */
+		"jsdoc/require-jsdoc": 0,
+		"jsdoc/check-indentation": 2,
+		"jsdoc/check-param-names": 2,
+		"jsdoc/check-syntax": 2,
+		"jsdoc/check-tag-names": 2,
+		"jsdoc/check-types": 2,
+		"jsdoc/require-description": 0,
+		"jsdoc/require-hyphen-before-param-description": 2,
+		"jsdoc/require-param": 2,
+		"jsdoc/require-param-description": 2,
+		"jsdoc/require-param-name": 2,
+		"jsdoc/require-param-type": 2,
+		"jsdoc/require-returns": 2,
+		"jsdoc/require-returns-check": 2,
+		"jsdoc/require-returns-description": 2,
+		"jsdoc/require-returns-type": 2,
+		"jsdoc/valid-types": 2
 	}
 }
