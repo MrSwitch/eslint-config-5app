@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/5app/eslint-config-5app/compare/v0.5.0...v0.6.0) (2019-06-05)
+
+
+### Features
+
+* **rules:** added jsdoc rules for formatting jsdoc syntax ([e6e9517](https://github.com/5app/eslint-config-5app/commit/e6e9517))
+
 # [0.5.0](https://github.com/5app/eslint-config-5app/compare/v0.4.0...v0.5.0) (2019-05-29)
 
 
