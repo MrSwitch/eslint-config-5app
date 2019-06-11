@@ -8,7 +8,13 @@
 		"ecmaVersion": 2018,
 		"sourceType": "module"
 	},
-	"extends": "eslint:recommended",
+	"plugins": [
+		"jsdoc"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:you-dont-need-lodash-underscore/all"
+	],
 	"rules": {
 		"arrow-spacing": [2, {"before": true, "after": true}],
 		"arrow-parens": [2, "as-needed"],
@@ -18,6 +24,7 @@
 		"comma-dangle": 0,
 		"comma-spacing": [2, {"before": false, "after": true}],
 		"dot-notation": 2,
+		"dot-location": [2, "property"],
 		"eqeqeq": 2,
 		"func-call-spacing": 2,
 		"indent": [2, "tab", {"SwitchCase": 1}],
@@ -25,6 +32,7 @@
 		"keyword-spacing": [2, { "before": true }],
 		"linebreak-style": [2, "unix"],
 		"no-alert": 2,
+		"no-await-in-loop": 2,
 		"no-caller": 2,
 		"no-cond-assign": 2,
 		"no-constant-condition": 2,
@@ -53,6 +61,7 @@
 		"no-new-wrappers": 2,
 		"no-octal": 2,
 		"no-octal-escape": 2,
+		"no-path-concat": 2,
 		"no-proto": 2,
 		"no-redeclare": 2,
 		"no-return-await": 2,
@@ -81,6 +90,7 @@
 		"prefer-template": 2,
 		"quote-props": [2, "as-needed"],
 		"quotes": [2, "single"],
+		"radix": [2, "as-needed"],
 		"semi": [2, "always"],
 		"semi-spacing": [2, {"before": false, "after": true}],
 		"space-before-blocks": 2,
@@ -92,6 +102,23 @@
 		"space-infix-ops": [2, {"int32Hint": false}],
 		"space-in-parens": [2, "never"],
 		"valid-typeof": 2,
-		"yoda": 2
+		"yoda": 2,
+		"jsdoc/require-jsdoc": 0,
+		"jsdoc/check-indentation": 2,
+		"jsdoc/check-param-names": 2,
+		"jsdoc/check-syntax": 2,
+		"jsdoc/check-tag-names": 2,
+		"jsdoc/check-types": 2,
+		"jsdoc/require-description": 0,
+		"jsdoc/require-hyphen-before-param-description": 2,
+		"jsdoc/require-param": 2,
+		"jsdoc/require-param-description": 2,
+		"jsdoc/require-param-name": 2,
+		"jsdoc/require-param-type": 2,
+		"jsdoc/require-returns": 2,
+		"jsdoc/require-returns-check": 2,
+		"jsdoc/require-returns-description": 2,
+		"jsdoc/require-returns-type": 2,
+		"jsdoc/valid-types": 2
 	}
 }

@@ -1,11 +1,12 @@
 {
   "name": "eslint-config-mr",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Javascript Style guide by MrSwitch",
   "main": "index.js",
   "scripts": {
-    "update": "git fetch upstream && git pull upstream master",
+    "semantic-release": "semantic-release",
     "test": "mocha test/validate.js",
+    "update": "git fetch upstream && git pull upstream master",
     "lint": "eslint ./ --config eslintrc.json"
   },
   "files": [
@@ -28,11 +29,39 @@
   },
   "homepage": "https://github.com/5app/eslint-config-mr#readme",
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "semantic-release": "^15.13.12"
   },
   "peerDependencies": {
     "eslint": ">=5.0.0"
+  },
+  "release": {
+    "branch": "master",
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  },
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^8.0.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.5.0"
   }
 }
