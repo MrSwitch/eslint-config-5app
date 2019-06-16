@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/5app/eslint-config-mr.git"
+    "url": "git+ssh://git@github.com/MrSwitch/eslint-config-mr.git"
   },
   "keywords": [
     "5app",
@@ -25,9 +25,9 @@
   "author": "Andrew Dodson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/5app/eslint-config-mr/issues"
+    "url": "https://github.com/MrSwitch/eslint-config-mr/issues"
   },
-  "homepage": "https://github.com/5app/eslint-config-mr#readme",
+  "homepage": "https://github.com/MrSwitch/eslint-config-mr#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.8",
