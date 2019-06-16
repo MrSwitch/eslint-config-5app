@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/MrSwitch/eslint-config-mr/compare/v1.2.1...v1.2.2) (2019-06-16)
+
+
+### Bug Fixes
+
+* **deploy:** update git path ([bf85573](https://github.com/MrSwitch/eslint-config-mr/commit/bf85573))
+
 ## [0.6.3](https://github.com/5app/eslint-config-5app/compare/v0.6.2...v0.6.3) (2019-06-11)
 
 
